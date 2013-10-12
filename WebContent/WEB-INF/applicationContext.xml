@@ -8,10 +8,6 @@
         class="com.rotiwen.dao.impl.AreaService">
   </bean>
 
-  <bean id="springHomeAction"
-  		class="com.rotiwen.action.HomeAction">
-  		<property name="areaService" ref="areaService"></property>
-  </bean>
   <!-- more bean definitions for services go here -->
 
 </beans>
